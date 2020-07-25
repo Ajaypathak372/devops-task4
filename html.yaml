@@ -31,7 +31,6 @@ metadata:
     app: webserver
     type: html
 spec:
-  replicas: 3
   selector:
     matchLabels:
       type: html
