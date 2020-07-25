@@ -34,8 +34,6 @@ spec:
   selector:
     matchLabels:
       type: html
-  strategy:
-    type: Recreate
   template:
     metadata:
       labels:
